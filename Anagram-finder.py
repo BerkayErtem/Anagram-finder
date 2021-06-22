@@ -31,10 +31,10 @@ def inputs():
         
 
     elif len(count1-count2)!=0:
-        if Counter!=0:
-            print('These letters should be deleted from the FIRST sentence as many as it shows on the right side')
-            print(count1-count2)
-            inputs()
+        
+        print('These letters should be deleted from the FIRST sentence as many as it shows on the right side')
+        print(count1-count2)
+        inputs()
     elif len(count2-count1)!=0:
 
         print('These letters should be deleted from the SECOND sentence as many as it shows on the right side')
